@@ -118,7 +118,7 @@ public class EdChecker {
         //public static void main(String args[]) {
             Scanner sc = new Scanner(System.in);
             String username = "tongemu1.zilla@gmail.com";
-            String password = "j1kYXy4h";
+            String password = "tongdcstest";
             String to = "tongpanuwat@gmail.com";
             String subject = "ED TICKET AVAILABLE NOW!!!";
             String email_body = "LET \'s HURRY!!!";
