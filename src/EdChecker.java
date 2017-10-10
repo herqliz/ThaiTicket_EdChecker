@@ -93,7 +93,7 @@ public class EdChecker {
         		//Counter++;
         	} else {
         		System.out.println("FOUND TICKET WITH STATUS= "+tb_seat+" : "+tb_data);
-        		JavaSendmail();
+        		JavaSendmail(tb_seat,tb_data);
         		System.out.println("YEAH TICKET AVAILABLE");
         		TicketFound++;
         		tk.beep();
@@ -114,14 +114,14 @@ public class EdChecker {
         
       }
     }
-    public static void JavaSendmail() {
+    public static void JavaSendmail(String m1, String m2) {
         //public static void main(String args[]) {
             Scanner sc = new Scanner(System.in);
             String username = "tongemu1.zilla@gmail.com";
             String password = "tongdcstest";
             String to = "tongpanuwat@gmail.com";
             String subject = "ED TICKET AVAILABLE NOW!!!";
-            String email_body = "LET \'s HURRY!!!";
+            String email_body = "LET \'s HURRY!!! "+m1 +" Available : " +m2+" Seats" ;
             EdChecker test = new EdChecker();
             test.doSendMail(username, password, to, subject, email_body);
             sc.close();
