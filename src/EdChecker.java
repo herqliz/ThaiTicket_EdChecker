@@ -30,7 +30,7 @@ public class EdChecker {
     	String passWord = args[1];
     	Toolkit tk = Toolkit.getDefaultToolkit();
     	
-    	System.setProperty("webdriver.gecko.driver", "geckodriver.exe");
+    	System.setProperty("webdriver.gecko.driver", "C:\\Program Files\\Mozilla Firefox\\geckodriver.exe");
     	System.setProperty(FirefoxDriver.SystemProperty.DRIVER_USE_MARIONETTE,"true"); 
     	System.setProperty(FirefoxDriver.SystemProperty.BROWSER_LOGFILE,"/dev/null");
         driver =new FirefoxDriver();
