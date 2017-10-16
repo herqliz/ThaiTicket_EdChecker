@@ -101,6 +101,7 @@ public class EdChecker {
         		tk.beep();
         		TimeUnit.MILLISECONDS.sleep(500);
         		tk.beep();
+        		System.out.println("SLEEP FOR 5 MINUTES TO AVOID MAIL ARE SENT OUT TOO FREQUENTLY");
         		TimeUnit.MINUTES.sleep(5);
         	}
         	//System.out.println("NUMBER OF ROW"+Counter);
