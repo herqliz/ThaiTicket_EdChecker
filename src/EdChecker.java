@@ -101,6 +101,7 @@ public class EdChecker {
         		tk.beep();
         		TimeUnit.MILLISECONDS.sleep(500);
         		tk.beep();
+        		TimeUnit.MINUTES.sleep(5);
         	}
         	//System.out.println("NUMBER OF ROW"+Counter);
         }
